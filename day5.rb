@@ -1,5 +1,5 @@
 strings = []
-File.open('input5.txt').each do |line|
+File.open('inputs/day5.txt').each do |line|
   strings.push(line)
 end
 

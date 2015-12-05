@@ -1,4 +1,4 @@
-paren_str = File.open('input1.txt').read
+paren_str = File.open('inputs/day1.txt').read
 
 floor = 0
 

@@ -1,5 +1,5 @@
 boxes = []
-File.open('input2.txt').each do |line|
+File.open('inputs/day2.txt').each do |line|
   boxes.push(line.split('x').map(&:to_i)) # convert AxBxC -> [A, B, C]
 end
 
