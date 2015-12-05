@@ -25,4 +25,4 @@ strings.each do |str|
   nice_count = nice_count + 1 if (!has_forbidden && has_double && vowel_count >= 3)
 end
 
-puts nice_count
+puts "Answer for part 1: #{nice_count}" # 238
